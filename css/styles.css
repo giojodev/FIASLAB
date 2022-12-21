@@ -1,0 +1,74 @@
+html{
+    margin: 0;
+    font-family: Montseratt-Light,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    
+}
+a:hover{
+    cursor: pointer;
+}
+#encabezado{
+    float: left;
+    clear: both;
+    width: 100%;
+
+}
+.logo{
+    height: 7rem;
+    src: local('../images/logos/logo2 (2).png');
+    float: left;
+}
+.textoEmpresa{
+    float: left;
+    margin-left: 20em;
+    font-size: 2em;
+    margin-top: 1em;
+    font-weight: bolder;
+    letter-spacing: 0.5em;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(40, 61, 71);
+    color: white;
+    text-align: center;
+  }
+nav{
+    float: left;
+    clear: both;
+    width: 100%;
+    background: #214b4d;
+    color: #dddddd;
+}
+nav ul li{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+li{
+    display: inline;
+    float: left;
+}
+a {
+    display: block;
+    padding: 15px;
+    background-color: transparent;
+    margin: auto;
+  }
+a:hover{
+    background: #033c53;
+    color: #dddddd;
+    overflow-y: 10px;
+}
