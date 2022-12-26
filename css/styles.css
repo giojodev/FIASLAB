@@ -72,3 +72,18 @@ a:hover{
     color: #dddddd;
     overflow-y: 10px;
 }
+.banner{
+    background-image: url('../images/recursos/mina2.jpeg');
+    /* opacity: .4; */
+
+}
+.logobanner{
+    clear: both;
+    font-size: 5rem;
+    letter-spacing: 0.1em;
+
+}
+.logobanner p{
+    color: #FFF !important;
+
+}
