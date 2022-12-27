@@ -20,6 +20,7 @@ a:hover{
     height: 7rem;
     src: local('../images/logos/logo2 (2).png');
     float: left;
+    margin-left: 50rem;
 }
 .textoEmpresa{
     float: left;
@@ -37,6 +38,7 @@ a:hover{
     background-color: rgb(40, 61, 71);
     color: white;
     text-align: center;
+    clear: both;
   }
 nav{
     float: left;
@@ -62,7 +64,6 @@ li{
     float: left;
 }
 a {
-    display: block;
     padding: 15px;
     background-color: transparent;
     margin: auto;
@@ -87,3 +88,30 @@ a:hover{
     color: #FFF !important;
 
 }
+.banner2{
+    padding: 5rem;
+    padding-left: auto;
+    padding-right: auto;
+    
+}
+.banner2 p{
+    text-align: center;
+
+    font-size: 2.9rem;
+}
+.botonDiv a{
+
+display: flex;
+margin-left: auto;
+margin-right: auto;
+}
+.swiper {
+    width: 50em;
+    height: 15rem;
+    clear: both;float: left;
+    margin-bottom: 2em;
+    margin-left: 25em;
+  }
+  .sliderzona{
+    
+  }
