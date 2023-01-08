@@ -78,7 +78,7 @@ a:hover{
     /* opacity: .4; */
 
 }
-.logobanner{
+/* .logobanner{
     clear: both;
     font-size: 5rem;
     letter-spacing: 0.1em;
@@ -87,7 +87,7 @@ a:hover{
 .logobanner p{
     color: #FFF !important;
 
-}
+} */
 .banner2{
     padding: 5rem;
     padding-left: auto;
@@ -112,6 +112,18 @@ margin-right: auto;
     margin-bottom: 2em;
     margin-left: 25em;
   }
-  .sliderzona{
-    
+  .videoBanner{
+    position: fixed;
+    min-width: 100%;
+    width: 100%;
+    z-index: 0;
+  }
+  .contenido{
+    bottom: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    z-index: 1;
   }
