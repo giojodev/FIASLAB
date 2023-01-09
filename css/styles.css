@@ -44,8 +44,9 @@ nav{
     float: left;
     clear: both;
     width: 100%;
-    background: #214b4d;
+    background: #ED2C41;
     color: #dddddd;
+    font-weight: bold;
 }
 nav ul li{
     display: flex;
@@ -69,7 +70,7 @@ a {
     margin: auto;
   }
 a:hover{
-    background: #033c53;
+    background: #2B4046;
     color: #dddddd;
     overflow-y: 10px;
 }
@@ -100,10 +101,11 @@ a:hover{
     font-size: 2.9rem;
 }
 .botonDiv a{
+    margin-left: 50rem;
+    margin-right: 50rem;
+    text-align: center;
+    margin-top: 10rem;
 
-display: flex;
-margin-left: auto;
-margin-right: auto;
 }
 .swiper {
     width: 50em;
@@ -126,4 +128,8 @@ margin-right: auto;
     width: 100%;
     padding: 20px;
     z-index: 1;
+  }
+  .contactenos-banner{
+    background-color: #B31F2A;
+    color: #f1f1f1;
   }
