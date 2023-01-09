@@ -69,7 +69,7 @@ a {
     background-color: transparent;
     margin: auto;
   }
-a:hover{
+ul li a:hover{
     background: #2B4046;
     color: #dddddd;
     overflow-y: 10px;
@@ -132,4 +132,30 @@ a:hover{
   .contactenos-banner{
     background-color: #B31F2A;
     color: #f1f1f1;
+  }
+  .banner-redes{
+    float: left;
+    clear: both;
+    width: 100%;
+    background: rgb(43,64,70);
+    background: linear-gradient(90deg, rgba(43,64,70,1) 0%, rgba(179,31,42,1) 50%, rgba(237,44,65,1) 100%);
+    height: 140px;
+  }
+  .texto-redes p{
+    color:#dddddd;
+    font-weight: bold;
+    margin-top: 3.5em;
+    margin-left:10em;
+    float: left;
+  }
+  .redes{
+float: left;
+margin-top: 2.8em;
+    margin-left:20em;
+  }
+  .botonDiv a:hover{
+    background: #2B4046;
+    color: #dddddd;
+    overflow-y: 10px;
+    transition: 0.5s;
   }
