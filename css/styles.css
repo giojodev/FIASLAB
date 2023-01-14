@@ -35,7 +35,7 @@ a:hover{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(40, 61, 71);
+    background-color: rgb(89, 135, 156);
     color: white;
     text-align: center;
     clear: both;
@@ -143,7 +143,7 @@ ul li a:hover{
   }
   .texto-redes p{
     color:#dddddd;
-    font-weight: bold;
+    font-weight: bold; 
     margin-top: 3.5em;
     margin-left:10em;
     float: left;
