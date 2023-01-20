@@ -157,11 +157,38 @@ margin-top: 2.8em;
   }
   .redes:hover{
     transform: scale(1.5);
-    transition: 0.5s;
+    /* transition: 0.5s; */
   }
   .botonDiv a:hover{
     background: #2B4046;
     color: #dddddd;
     overflow-y: 10px;
     transition: 0.5s;
+  }
+
+  .infocontactobanner{
+    font-weight: bolder;
+      float: left;
+      color: #f1f1f1;
+      background-color: #2B4046;
+      height: auto;
+      width: 100%;
+      display: flex;
+      padding-top: 1rem;
+      -ms-flex-align: baseline;
+      justify-content: space-around;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: baseline;
+      padding-left: 25rem;  }
+      
+
+  .infocontactobanner p {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .infocontactobanner img{
+    height: 2rem;
   }
