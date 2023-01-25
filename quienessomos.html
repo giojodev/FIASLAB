@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FIASLAB</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet"></link>
     <script src="https://cdn.tailwindcss.com"></script>
+    
 </head>
 <body>
     <header>
@@ -26,25 +28,36 @@
         </div>
     </nav>
     <section>
-        <div style="display:flex; flex-direction: row;clear: both; width: 100%;">
-            <div style="width: 50%;margin-top: 6rem;padding-left: 15rem;">
+        <div class="quienessomosbanner">
+            <div id="logobannerquienessomos">
                 <img src="images/logos/logo2 (2).png">
             </div>
-            <div style="padding: 10rem;width: 50%;">
-                <h2>Quienes Somos</h2>
-                <p style="text-align: justify;"><strong>FIASLAB</strong> es un laboratorio químico metalurgico completo para minería aurífera, que aporta al nivel de oferta de servicios calificados
+            <div class="zonaparrafoquienessomosb">
+                <h1 class="tituloquienessomos">Quienes Somos</h1>
+                <p><strong>FIASLAB</strong> es un laboratorio químico metalurgico completo para minería aurífera, que aporta al nivel de oferta de servicios calificados
                     tanto al sector industrial minero como al sector de la pequeña minería, minería artesanal y sectores relacionados al comercio del oro y minerales relacionados de Nicaragua.
 
                 </p>
             </div>
         </div>
-        
     </section>
+    <section class="splide" aria-label="Basic Structure Example">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide"><img src="images/recursos/fiaslab-personal.jpg" style="width: fit-content;align-items: center;"></li>
+            <li class="splide__slide"><img src="images/recursos/fiaslab-personal2.jpg" alt=""></li>
+            <li class="splide__slide"><img src="images/recursos/fiaslab-personal3.jpg" alt=""></li>
+          </ul>
+        </div>
+      </section>
     <footer>
         <div class="footer">
             <h6>Creado por GiojoDev</h6>
         </div>
         
     </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="./js/splide.js"></script>
 </body>
 </html>

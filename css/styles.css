@@ -203,3 +203,24 @@ margin-top: 2.8em;
   .infocontactobanner img:hover{
     transform: scale(1.5);
   }
+
+  .quienessomosbanner{
+    display:flex; 
+    flex-direction: row;
+    clear: both; 
+    width: 100%;
+  }
+  #logobannerquienessomos{
+    width: 50%;
+    margin-top: 6rem;
+    padding-left: 15rem;
+  }
+  .zonaparrafoquienessomosb{
+    padding: 10rem;width: 50%;
+  }
+  .tituloquienessomos{
+    font-size:2rem;text-align: center;color:#B31F2A;font-weight: bold;
+  }
+  .zonaparrafoquienessomosb p{
+    text-align: justify;color: #2B4046; margin-top: 0.5rem;font-size: 18px;
+  }
