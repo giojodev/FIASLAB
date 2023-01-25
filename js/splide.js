@@ -1,8 +1,7 @@
 var splide = new Splide( '.splide', {
     type    : 'loop',
-    perPage : 1,
+    perPage : 2,
     autoplay: true,
-    padding:'7rem',
     width:'100%'
   } );
   
