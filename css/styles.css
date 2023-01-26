@@ -209,6 +209,8 @@ margin-top: 2.8em;
     flex-direction: row;
     clear: both; 
     width: 100%;
+    transition: 2s;
+
   }
   #logobannerquienessomos{
     width: 50%;
