@@ -224,6 +224,9 @@ margin-top: 2.8em;
   .zonaparrafoquienessomosb{
     padding: 10rem;width: 50%;
   }
+  .zonaparrafoquienessomosb img{
+    display: flexbox;
+  }
   .tituloquienessomos{
     font-size:2rem;text-align: center;color:#B31F2A;font-weight: bold;
   }
