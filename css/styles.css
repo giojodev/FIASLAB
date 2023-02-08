@@ -1,5 +1,6 @@
 html{
     margin: 0;
+    padding: 0;
     font-family: Montseratt-Light,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     scroll-behavior: smooth;
 }
@@ -263,4 +264,33 @@ margin-top: 2.8em;
   }
   .valoresquienessomos img p{
     float: left;
+  }
+  #bannerContactenos{
+    display:flex; 
+    flex-direction: row;
+    clear: both; 
+    width: 100%;
+    transition: 2s;
+    background: url('/images/recursos/mach.jpg') repeat 0 0 ;
+    float: left;
+    height: 5rem !important;
+  }
+
+  .bannertext h1, .bannertext h3, .bannertext h6 {
+    margin: 0;
+    text-shadow: 2px 2px 6px #000;
+    text-align: center;
+    font-size: 38px;
+    text-transform: uppercase;
+  }
+  
+  .bannertext {
+    color: white;
+    background: url('/images/recursos/lava2.jpg') top left/cover no-repeat;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: 100%;
   }
