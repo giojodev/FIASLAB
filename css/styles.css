@@ -1,5 +1,6 @@
 html{
     margin: 0;
+    padding: 0;
     font-family: Montseratt-Light,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     scroll-behavior: smooth;
 }
@@ -44,7 +45,7 @@ nav{
     float: left;
     clear: both;
     width: 100%;
-    background: #ED2C41;
+    background: #B31F2A;
     color: #dddddd;
     font-weight: bold;
 }
@@ -54,6 +55,12 @@ nav ul li{
     flex-wrap: wrap;
 
 
+}
+nav a{
+  transition: 0.5s;
+}
+nav a:hover{
+  transform: scale(1.2);
 }
 ul {
     list-style-type: none;
@@ -152,6 +159,12 @@ ul li a:hover{
 float: left;
 margin-top: 2.8em;
     margin-left:20em;
+    height: 3rem;
+    transition: 0.5s;
+  }
+  .redes:hover{
+    transform: scale(1.5);
+    /* transition: 0.5s; */
   }
   .botonDiv a:hover{
     background: #2B4046;
@@ -159,3 +172,137 @@ margin-top: 2.8em;
     overflow-y: 10px;
     transition: 0.5s;
   }
+
+  .infocontactobanner{
+    font-weight: bolder;
+      float: left;
+      color: #f1f1f1;
+      background-color: #2B4046;
+      height: auto;
+      width: 100%;
+      display: flex;
+      padding-top: 1rem;
+      -ms-flex-align: baseline;
+      justify-content: space-around;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: baseline;
+      padding-left: 25rem;  }
+      
+
+  .infocontactobanner p {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .infocontactobanner img{
+    height: 2rem;
+    margin-right: 2rem;
+    transition: 1s;
+  }
+  .infocontactobanner img:hover{
+    transform: scale(1.5);
+  }
+
+  .quienessomosbanner{
+    display:flex; 
+    flex-direction: row;
+    clear: both; 
+    width: 100%;
+    transition: 2s;
+
+  }
+  #logobannerquienessomos{
+    width: 50%;
+    margin-top: 6rem;
+    padding-left: 15rem;
+  }
+  #quienessomosfotos{
+    width: 50%;
+    margin-top: 6rem;
+  }
+  .zonaparrafoquienessomosb{
+    padding: 10rem;width: 50%;
+  }
+  .zonaparrafoquienessomosb img{
+    display: flexbox;
+  }
+  .tituloquienessomos{
+    font-size:2rem;text-align: center;color:#B31F2A;font-weight: bold;
+  }
+  .zonaparrafoquienessomosb p{
+    text-align: justify;color: #2B4046; margin-top: 0.5rem;font-size: 18px;
+  }
+  .bannergerente
+  {
+    background-color: #B31F2A;
+  }
+  .imgcircular{
+    height: 30rem;border-radius: 300px;
+  }
+  .Titulovalores{
+    float: left;
+    clear: both;
+    color: #CCA356;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 45%;
+    /* margin-right: 50%; */
+    margin-top: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 3rem;
+
+  }
+  .valoresquienessomos{
+    width: 50%;
+    margin-top: 6rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    height: fit-content;
+    transition: 1s;
+  }
+  .valoresquienessomos:hover{
+    transform: scale(1.2);
+  }
+  .valoresquienessomos img p{
+    float: left;
+  }
+  #bannerContactenos{
+    display:flex; 
+    flex-direction: row;
+    clear: both; 
+    width: 100%;
+    transition: 2s;
+    background: url('/images/recursos/mach.jpg') repeat 0 0 ;
+    float: left;
+    height: 5rem !important;
+  }
+
+  .bannertext h1, .bannertext h3, .bannertext h6 {
+    margin: 0;
+    text-shadow: 2px 2px 6px #000;
+    text-align: center;
+    font-size: 38px;
+    text-transform: uppercase;
+  }
+  
+  .bannertext {
+    color: white;
+    background: url('/images/recursos/lava2.jpg') top left/cover no-repeat;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: 100%;
+  }
+  #formContacto{
+    float: left;
+    margin-left: 20em;
+    margin-right: 15em;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  #map { height: 480px; width: 100%;}
