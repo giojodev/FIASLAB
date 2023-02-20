@@ -314,7 +314,8 @@ margin-top: 2.8em;
   }
 
   .Contenedor {
-    background: linear-gradient(90deg, rgba(43,64,70,1) 0%, rgba(179,31,42,1) 50%, rgba(237,44,65,1) 100%);
+    /* background: linear-gradient(90deg, rgba(43,64,70,1) 0%, rgba(179,31,42,1) 50%, rgba(237,44,65,1) 100%); */
+    background: url('/images/recursos/lava2.jpg') top left/cover no-repeat;
     height: 301px;
     display: flex;
     justify-content: center;
