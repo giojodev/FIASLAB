@@ -306,3 +306,57 @@ margin-top: 2.8em;
     margin-bottom: 5rem;
   }
   #map { height: 480px; width: 100%;}
+
+  .boardServ{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .Contenedor {
+    background: linear-gradient(90deg, rgba(43,64,70,1) 0%, rgba(179,31,42,1) 50%, rgba(237,44,65,1) 100%);
+    height: 301px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0rem;
+}
+  .center {
+    text-align: center;
+  }
+  .productDescription{
+    clear: both;
+ 
+  }
+  .Contenedor2 {
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+  }
+  .producto {
+    margin:1rem;
+    /* margin-top: rem; */
+  }
+ 
+
+.texto-encima{
+    color: white;
+    position: absolute;
+    font-size: 5rem;
+    text-align: left;
+    top: 140px;
+    left: 10px;
+}
+.centrado{
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text{
+  display: flex;
+  margin: 2rem;
+  text-align: center;
+}
+
