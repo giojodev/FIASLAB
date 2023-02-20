@@ -328,6 +328,7 @@ margin-top: 2.8em;
  
   }
   .Contenedor2 {
+    color: #CCA356;
     height: 320px;
     display: flex;
     justify-content: center;
@@ -344,7 +345,7 @@ margin-top: 2.8em;
     position: absolute;
     font-size: 5rem;
     text-align: left;
-    top: 140px;
+    top: 150px;
     left: 10px;
 }
 .centrado{
@@ -357,6 +358,7 @@ margin-top: 2.8em;
 .text{
   display: flex;
   margin: 2rem;
+  color: #CCA356;
   text-align: center;
 }
 
