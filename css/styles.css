@@ -375,3 +375,11 @@ margin-top: 2.8em;
   color: whitesmoke;
   text-align: left;
 }
+.text-service2{
+  display:flex;
+  font-size: 2rem;
+  /* margin: 2rem; */
+  color: whitesmoke;
+  text-align: right;
+  align-items: right;
+}
