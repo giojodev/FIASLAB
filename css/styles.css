@@ -359,7 +359,19 @@ margin-top: 2.8em;
 .text{
   display: flex;
   margin: 2rem;
-  color: #CCA356;
+  color: whitesmoke;
   text-align: center;
 }
 
+.Info-Servicio{
+  margin-top: -35px;
+  background: url('/images/Servicios/mina3.jpg') top left/cover no-repeat;
+ 
+}
+.text-service{
+  display: flex;
+  font-size: 2rem;
+  margin: 2rem;
+  color: whitesmoke;
+  text-align: left;
+}
