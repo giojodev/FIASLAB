@@ -306,21 +306,21 @@ margin-top: 2.8em;
     margin-bottom: 5rem;
   }
   #map { height: 480px; width: 100%;}
-
+/* 
   .boardServ{
     position: relative;
     display: inline-block;
     text-align: center;
-  }
+  } */
 
-  .Contenedor {
-    /* background: linear-gradient(90deg, rgba(43,64,70,1) 0%, rgba(179,31,42,1) 50%, rgba(237,44,65,1) 100%); */
+  /* .Contenedor {
+
     background: url('/images/recursos/lava2.jpg') top left/cover no-repeat;
     height: 301px;
     display: flex;
     justify-content: center;
     margin-top: 0rem;
-}
+} */
   .center {
     text-align: center;
   }
@@ -328,27 +328,27 @@ margin-top: 2.8em;
     clear: both;
  
   }
-  .Contenedor2 {
+  /* .Contenedor2 {
     color: #CCA356;
     height: 320px;
     display: flex;
     justify-content: center;
     margin-top: 0px;
-  }
+  } */
   .producto {
     margin:1rem;
     /* margin-top: rem; */
   }
  
 
-.texto-encima{
+/* .texto-encima{
     color: white;
     position: absolute;
     font-size: 5rem;
     text-align: left;
     top: 150px;
     left: 10px;
-}
+} */
 .centrado{
     color: black;
     position: absolute;
@@ -363,23 +363,44 @@ margin-top: 2.8em;
   text-align: center;
 }
 
-.Info-Servicio{
-  margin-top: -35px;
-  background: url('/images/recursos/mina2.jpeg') top left/cover no-repeat;
+.campo1servicio{
+    display:flex; 
+    flex-direction: row;
+    clear: both; 
+    width: 100%;
+    transition: 2s;
  
 }
-.text-service{
-  display: flex;
-  font-size: 2rem;
-  margin: 2rem;
-  color: whitesmoke;
-  text-align: left;
+#logosrv{
+   width: 50%;
+  margin-top: 6rem;
+  padding-left: 15rem;
 }
-.text-service2{
-  display:flex;
-  font-size: 2rem;
-  /* margin: 2rem; */
-  color: whitesmoke;
-  text-align: right;
-  align-items: right;
+
+.zonatittlesrv{
+  /* background: url('/images/recursos/lava2.jpg') top left/cover no-repeat; */
+  padding: 10rem;width: 50%;
+  height: 301px;
+    /* display: flex;
+    justify-content: center; */
+}
+.lineadeservicios{
+  color: black;
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  transform: translate(-50%, -50%);
+
+}
+#fundicionmetales{
+  background: url('/images/recursos/lava2.jpg');
+  margin-left: 1rem;
+  width: 100px;
+  height: 100px;
+}
+.srvimg{
+  padding: 1rem;width: 50%;
+}
+.srvtxt{
+  font-size:2rem;text-align: center;color:#B31F2A;font-weight: bold;
 }
