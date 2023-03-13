@@ -313,14 +313,14 @@ margin-top: 2.8em;
     text-align: center;
   } */
 
-  /* .Contenedor {
+  .Contenedor {
 
-    background: url('/images/recursos/lava2.jpg') top left/cover no-repeat;
-    height: 301px;
+    /* background: url('/images/recursos/instalaciones.png') top left/cover no-repeat; */
+    height: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 0rem;
-} */
+    margin-top: 0rem; 
+  }
   .center {
     text-align: center;
   }
@@ -328,13 +328,14 @@ margin-top: 2.8em;
     clear: both;
  
   }
-  /* .Contenedor2 {
-    color: #CCA356;
-    height: 320px;
-    display: flex;
-    justify-content: center;
-    margin-top: 0px;
-  } */
+  .contevidrio{
+       
+      align-items: center;
+      /* flex-direction: row; */
+      clear: both; 
+      width: 100%;
+      /* transition: 2s; */
+  }
   .producto {
     margin:1rem;
     /* margin-top: rem; */
@@ -403,4 +404,12 @@ margin-top: 2.8em;
 }
 .srvtxt{
   font-size:2rem;text-align: center;color:#B31F2A;font-weight: bold;
+}
+
+.swiper2 {
+  width: 50em;
+  height: 15rem;
+  clear: both;float: left;
+  margin-bottom: 2em;
+  margin-left: 25em;
 }
