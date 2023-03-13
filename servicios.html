@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <title>FIASLAB</title> -->
+    <title>FIASLAB</title>
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 </head>
 <body>
     <header>
@@ -26,48 +29,95 @@
         </div>
     </nav>
 
-    <!-- imagen principal -->
-    <div class="boardserv">
-        <img src="images/recursos/instalaciones.png"width="10000" height="1000"> 
-        <div class="texto-encima"><p>NUESTRA PRIORIDAD SON NUESTROS CLIENTES</p><P>POR ESO TRABAJAMOS PARA COMPLACERLES SIEMPRE.</P> </div>
-        <!-- <div class="centrado"><p style="font-size: 100px">SERVICIOS</p></div> -->
-    </div>
-        <!-- contenedor de texto "servicios" -->
-    <section class = "Contenedor">
-        <div class="text">
-            <div class="text"><p style="font-size: 100px">SERVICIOS</p></div>
+    <section>
+       <div class = "campo1servicio">
+            <div id = "logosrv"> 
+                <img src="images/logos/logo2 (2).png">
+             </div>
+                <div class="zonatittlesrv">
+                    <h1 class="tituloquienessomos">SERVICIOS</h1>
+                </div>
+       </div>
+
     </section>
-    <!-- <section class = Contenedor2 >
-        <div class = "center"> <p style = "float:center">FUNDICIÓN DE METALES</p><img src="images/Servicios/fundicion gif.gif"style="margin-left:1rem;width:40rem "></div>
-        <div class = "center"> <p style = "float:center">DOBLADO ASTM E290</p> <img src="images/Servicios/doblado acero.jpg"style="margin-left:2rem;width:40rem;height:15rem"></div>
-        <div class = "center"> <p style = "float:center">Servicio 2</p> <img src="images/Servicios/service.gif"style="margin-left:2rem;width:40rem;height:15rem"></div>
-        <div class = "center"> <p style = "float:center">Servicio 2</p> <img src="images/Servicios/service.gif"style="margin-left:2rem;width:40rem;height:15rem"></div>
-        <div class = "center"> <p style = "float:center">Servicio 2</p> <img src="images/Servicios/service.gif"style="margin-left:2rem;width:40rem;height:15rem"></div>
-            
-    </section> -->
-    <!-- breve descripcion de servicios -->
-    <section class="Info-Servicio" > 
+    <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    
+        <section>
+        <div class="quienessomosbanner bg-yellow-500">
+            <figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
+                <img class=" h-auto md:rounded-none rounded-full mx-auto" src="/images/recursos/hierrofundido.png" alt="" width="384" height="512">
+     <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
+     </div>
+            </figure>
+            <div class="srvimg">
+                
+                <h1 class="srvtxt">FUNDICIÓN DE METALES</h1><br>
+                <p style="color:black">La fundición es el proceso de fundición de metales más antiguo que se emplea para dar forma 
+                    a los metales. Consiste en fundir y colar metal líquido en un molde que tenga la forma y tamaño que deseamos para que allí solidifique.
+                </p>
+            </div>
+            <figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
+                <img class=" h-auto md:rounded-none rounded-full mx-auto" src="/images/Servicios/doblado acero.jpg" alt="" width="384" height="512">
+            <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
+                </div>
+            </figure>
+            <div class="srvimg">
+        
+                <h1 class="tituloquienessomos">DOBLADO ASTM E290</h1><br>
+                <p style="color:black">
+                    Las pruebas de ductilidad de flexión proporcionan una forma sencilla de evaluar la calidad de los materiales por su capacidad para resistir el agrietamiento u otras
+                    irregularidades de la superficie durante una flexión continua.
+                    No se debe emplear ninguna inversión de la fuerza de flexión al realizar estos ensayos
+                </p>
+            </div>
+        </div>
+    
+        </section>
+     <section>
+        <div class="quienessomosbanner bg-yellow-500">
+            <figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
+                <img class=" h-auto md:rounded-none rounded-full mx-auto" src="/images/recursos/vidrio.png" alt="" width="384" height="512">
+                <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
+                 </div>
+              </figure>
+              <div class="srvimg">
+                </div>
+                
+                <h1 class="srvtxt">FUNDICIÓN DE VIDRIOS</h1><br>
+                <p style="color:black">El proceso de producción de vidrio comienza con la definición precisa de las materias primas,
+                     y SCHOTT se asegura de que sean de la más alta calidad para minimizar las impurezas en el producto final.
+                </p>
+            </div>
+            <figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
+                <img class=" h-auto md:rounded-none rounded-full mx-auto" src="/images/Servicios/doblado acero.jpg" alt="" width="384" height="512">
+            <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
+                </div>
+            </figure>
+            <div class="srvimg">
+        
+                <h1 class="tituloquienessomos">DOBLADO ASTM E290</h1><br>
+                <p style="color:black">
+                    Las pruebas de ductilidad de flexión proporcionan una forma sencilla de evaluar la calidad de los materiales por su capacidad para resistir el agrietamiento u otras
+                    irregularidades de la superficie durante una flexión continua.
+                    No se debe emplear ninguna inversión de la fuerza de flexión al realizar estos ensayos
+                </p>
+            </div>
+        </div>
+    
+    </section>
+</section>
 
-        <h1 class = "text-service"> <p style = "margin-top:4rem;float:left">FUNDICIÓN DE METALES </p>
-            <img src = "images/recursos/hierrofundido.png"style = "margin-left:3rem;margin-right:3rem;margin-top:1.5rem">
-            <p style = "margin-top:2rem;">La fundición es el proceso de fundición de metales más antiguo que se emplea para dar forma 
-                a los metales. Consiste en fundir y colar metal líquido en un molde que tenga la forma y tamaño que deseamos para que allí solidifique.</p>
-        </h1>
-        <h2 class = "text-service">
-            <p style = "margin-top:2rem;">Las pruebas de ductilidad de flexión proporcionan una forma sencilla de evaluar la calidad de los materiales por su capacidad para resistir el agrietamiento u otras irregularidades de la superficie durante una flexión continua. No se debe emplear ninguna inversión de la fuerza de flexión al realizar estos ensayos.</p>
-            <img src = "images/Servicios/doblado acero.jpg"style = "margin-left:3rem;margin-right:3rem;margin-top:1.5rem"><p style = "margin-top:4rem;float:left">DOBLADO ASTM E290 </p>
-        </h2>
-        <h3 class = "text-service"> <p style = "margin-top:4rem;float:left">FUSIÓN DE VIDRIO </p>
-            <img src = "images/recursos/vidrio.png"style = "margin-left:3rem;margin-right:3rem;margin-top:1.5rem">
-            <p style = "margin-top:2rem;">LEl proceso de producción de vidrio comienza con la definición precisa de las materias primas, y SCHOTT se asegura de que sean de la más alta calidad para minimizar las impurezas en el producto final.</p>
-        </h3>
-    </section>    
+   
 
+    
+   
     <footer>
         <div class="footer">
             <h6>Creado por GiojoDev</h6>
         </div>
         
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
 </body>
 </html>
