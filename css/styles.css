@@ -403,10 +403,11 @@ margin-top: 2.8em;
   padding: 1rem;width: 50%;
 }
 .srvtxt{
-  font-size:2rem;text-align: center;color:#B31F2A;font-weight: bold;
+  font-size:2rem;text-align: center;color:#efb000;font-weight: bold;
 }
 
 .srvbackground{
-  background:#B31F2A;;
+  /* background: #b31f2a; */
   /* background: url('/images/recursos/mina2.jpg') top left/cover no-repeat; */
+  background: #efb000;
 }
