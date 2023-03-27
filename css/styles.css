@@ -403,11 +403,140 @@ margin-top: 2.8em;
   padding: 1rem;width: 50%;
 }
 .srvtxt{
-  font-size:2rem;text-align: center;color:#efb000;font-weight: bold;
+  font-size:2rem;
+  text-align: left;
+  margin-left: 2rem;
+  /* color:#B31F2A; */
+  color:white;
+  font-weight: bold;
 }
 
 .srvbackground{
-  /* background: #b31f2a; */
+  background: #ffffff00;
   /* background: url('/images/recursos/mina2.jpg') top left/cover no-repeat; */
-  background: #efb000;
+  /* background: #efb000; */
+}
+.Contenedor {
+
+  /* background: url('/images/recursos/instalaciones.png') top left/cover no-repeat; */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 0rem; 
+}
+.center {
+  text-align: center;
+}
+.productDescription{
+  clear: both;
+
+}
+.contevidrio{
+     
+    align-items: center;
+    /* flex-direction: row; */
+    clear: both; 
+    width: 100%;
+    /* transition: 2s; */
+}
+.producto {
+  margin:1rem;
+  /* margin-top: rem; */
+}
+
+
+/* .texto-encima{
+  color: white;
+  position: absolute;
+  font-size: 5rem;
+  text-align: left;
+  top: 150px;
+  left: 10px;
+} */
+.centrado{
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text{
+display: flex;
+margin: 2rem;
+color: whitesmoke;
+text-align: center;
+}
+
+.campo1servicio{
+  display:flex; 
+  flex-direction: row;
+  clear: both; 
+  width: 100%;
+  transition: 2s;
+
+}
+#logosrv{
+ width: 50%;
+margin-top: 6rem;
+padding-left: 15rem;
+}
+
+.zonatittlesrv{
+/* background: url('/images/recursos/lava2.jpg') top left/cover no-repeat; */
+padding: 10rem;width: 50%;
+height: 301px;
+  /* display: flex;
+  justify-content: center; */
+}
+.lineadeservicios{
+color: black;
+position: absolute;
+width: 1000px;
+height: 1000px;
+transform: translate(-50%, -50%);
+
+}
+#fundicionmetales{
+background: url('/images/recursos/lava2.jpg');
+margin-left: 1rem;
+width: 100px;
+height: 100px;
+}
+.srvimg{
+padding: 1rem;width: 50%;
+}
+.srvtxt{
+font-size:2rem;
+text-align: center;
+margin-left: 2rem;
+color:#B31F2A;
+
+font-weight: bold;
+}
+
+.srvbackground{
+background: #ffffff00;
+/* background: url('/images/recursos/mina2.jpg') top left/cover no-repeat; */
+/* background: #efb000; */
+}
+.swiper1 {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
